@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+        <center>
+         <link href="css/hojaestilo.css" rel="stylesheet">
+        <head><img src="imagen/logo.png" width="700" height="200"><br><br>
+            
+            
+        </head>
+        <title> nueva america</title>
+    </center>
+    </head>
+
+    <body class= "control">
+        <center>
+            
+<div class="contenedor-logueo">
+                <div class="toggle">
+                   
+        
+    <div class="Usuario ya registrado">
+                <h1> Iniciar sesión </h1>
+
+        <form name="login" id="login" action="#">
+            <label for name ="nombre">Digite su nombre de usuario</label><br><br>
+            <input type="text" name="usuario" id="user" placeholder=" Usuario " class="test" autofocus required><br><br>
+            <label for="contraseña">Contrasena</label><br><br>
+            <input type="password" name="password" id="con" placeholder=" Contraseña " class="test" required><br><br>
+            <input type="button" onclick="logueo()" id="boton" value="Iniciar sesión" class="btn btn-outline-success"><br><br> 
+        </form>
+
+        <div class="reset-contraseña">
+            <a href="#"> Olvidaste la contraseña? </a><br><br>
+        </div>
+  
+
+    </div>
+
+     <div class="formulario">
+
+            <h2> Crear cuenta </h2>
+
+        <form  name="registro" action="#" action="" id="form" >
+
+            <br><br>
+            <label for name ="nombre">digite su nuevo usuaro</label><br><br>
+            <input type="text" name="userreg" id="user1" placeholder=" Usuario " class="test" autofocus required><br><br>
+            <label for  ="contraseña ">digite su nueva contraseña </label><br><br>
+            <input type="password" name="conreg" id="pas" placeholder=" Contraseña " class="test" required><br><br>
+            <label for name ="email ">digite su correo  </label><br><br>
+            <input type="email" id="mail" placeholder=" Correo electronico" class="test" ><br><br>
+            <label for  ="telefono">digite su numero telefonica</label><br><br>
+            <input type="text" id="tel" placeholder="Teléfono" class="test" ><br><br>
+
+            <input type="button" onclick="reg()" value="Registrarse" class="btn btn-outline-success"> 
+        </form>
+     </div>
+                </div>
+
+
+
+        <script src="js/javascript.js" ></script>
+        <p id= "output1"></p>
+
+    </center>
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
+    
